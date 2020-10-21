@@ -30,7 +30,14 @@
     href="https://www.npmjs.com/package/node-sass"
     target="_blank"
   > node-sass; </a>
+</p>
 
+<p>
+ - 🔌
+<a
+    href="https://github.com/axios/axios"
+    target="_blank"
+  > axios; </a>
 </p>
 
 
