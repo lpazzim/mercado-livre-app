@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './ItemList.scss';
 
 
@@ -6,12 +7,12 @@ export default function ItemList(props) {
   return (
     <div className="item-list-container">
       <div className="item-info">
-        <div className="item-img">
+        <Link to={`/items/${props.item.id}`} className="item-img">
           <img src={props.item.thumbnail ? props.item.thumbnail : null} alt="product-image" />
-        </div>
+        </Link>
         <div className="info-description">
           <p className="price" >{props.item.price ? `$ ${props.item.price}` : null}</p>
-          <p className="title">{props.item.title ? props.item.title : null}</p>
+          <Link className="title" to={`/items/${props.item.id}`}>{props.item.title ? props.item.title : null} </Link>
           <p>{props.item.moreInfo ? props.item.moreInfo : null}</p>
         </div>
       </div>

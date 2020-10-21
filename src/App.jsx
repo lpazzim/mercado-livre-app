@@ -12,15 +12,15 @@ function App(props) {
 
   return (
     <Provider store={store}>
-      <Header />
-      <div className="app-container">
-        <Router history={history}>
+      <Router history={history}>
+        <Header />
+        <div className="app-container">
           <BrowserRouter>
             <Routes />
           </BrowserRouter>
-        </Router >
-      </div>
-    </Provider>
+        </div>
+      </Router >
+    </Provider >
   );
 }
 

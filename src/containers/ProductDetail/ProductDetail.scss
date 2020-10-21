@@ -1,6 +1,7 @@
 .product-detail-container {
   background-color: var(--color5);
   padding: 32px;
+  max-width: 64%;
   .product-information {
     .product-image {
       display: flex;
@@ -31,6 +32,7 @@
         background-color: var(--color7);
         color: var(--color5);
         font-weight: 500;
+        font-size: var(--font-md);
       }
     }
   }
