@@ -26,9 +26,7 @@ export default function Input(props) {
         onChange={(e) => { onChange(e.target.value) }}
         type='text'
       />
-      <Link to={'/items'}>
         <img src={props.icon ? props.icon : null} className="ico" alt="input-icon" onClick={() => onClick()} disabled={props.disabled} />
-      </Link>
     </div>
   );
 }

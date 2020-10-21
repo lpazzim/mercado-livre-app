@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import MlServices from './../../services/MlServices.js'
 import './ProductDetail.scss'
 
@@ -26,7 +26,6 @@ export default function ProductDetail(props) {
   function getProductDesc(id) {
     MlServices.getProductDescription(id).then((res) => {
       setProductDesc(res);
-      console.log('res', res);
     })
       .catch((error) => {
         return error;
