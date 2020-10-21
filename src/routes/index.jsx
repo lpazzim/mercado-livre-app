@@ -9,7 +9,7 @@ export default function Routes(props) {
     <Switch>
         <Route path={'/'} exact component={Main} />
         <Route path={'/items'} exact component={SearchResult} />
-        <Route path={'/items/:id'} component={ProductDetail} />
+        <Route path={'/items/:id'} exact component={ProductDetail} />
     </Switch>
   );
 

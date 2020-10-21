@@ -13,10 +13,9 @@ export default function Header(props) {
     const limit = 4;
 
     function redirectToSearch(query) {
-        history.push({
-            pathname: '/items',
-            search: `?search=${query}&limit=${limit}`,
-        });
+        if (query) {
+            window.location.href = `${window.location.origin}/items?search=${query}&limit=${limit}`
+        }
     }
 
     return (
