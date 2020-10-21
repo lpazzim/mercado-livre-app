@@ -41,6 +41,16 @@
 </p>
 
 
+<p>
+ - 📦
+<a
+    href="https://react-redux.js.org/"
+    target="_blank"
+  > react-redux; </a>
+</p>
+
+
+
 ### How to use
 <p> - git clone https://github.com/lpazzim/mercado-livre-app.git</p>
 <p> - npm install </p>
