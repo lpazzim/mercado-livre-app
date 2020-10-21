@@ -3,7 +3,7 @@
 <div  align="left">
 <p align="left">
   <a
-    href="https://www.mercadolivre.com.br/"
+    href="https://brave-goodall-f545fd.netlify.app/"
     target="_blank"
   >
     <img
@@ -94,3 +94,6 @@
 <p> - git clone https://github.com/lpazzim/mercado-livre-app.git</p>
 <p> - npm install </p>
 <p> - npm run start </p>
+
+### Or
+- Just acess: https://brave-goodall-f545fd.netlify.app/
