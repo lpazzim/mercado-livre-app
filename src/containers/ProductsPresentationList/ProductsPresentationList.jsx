@@ -7,18 +7,18 @@ import './ProductsPresentationList.scss';
 
 
 export default function ProductsPresentationList(props) {
-  let { search } = useParams();
   const dispatch = useDispatch();
 
   useEffect(() => {
     var url_string = window.location.href;
     var url = new URL(url_string);
     var param = url.searchParams.get("search");
-    searchProducts(param);   
+    var limit = url.searchParams.get("limit");
+    searchProducts(param, limit);
   }, []);
 
-  function searchProducts(query) {
-    MlServices.getProducts(query).then((res) => {
+  function searchProducts(query, limit) {
+    MlServices.getProducts(query, limit).then((res) => {
       dispatch({ type: 'ADD_PRODUCTS', data: res.results });
     })
       .catch((error) => {

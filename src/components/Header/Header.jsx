@@ -10,11 +10,12 @@ import './Header.scss';
 export default function Header(props) {
     const [querySearch, setQuerySearch] = useState('');
     const history = useHistory();
+    const limit = 4;
 
     function redirectToSearch(query) {
         history.push({
             pathname: '/items',
-            search: `?search=${query}`,
+            search: `?search=${query}&limit=${limit}`,
         });
     }
 

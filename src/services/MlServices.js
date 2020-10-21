@@ -4,9 +4,9 @@ import config from './../utils/config.js';
 
 const baseUrl = config.baseUrl.url;
 class MLServices {
-    static getProducts(query) {
+    static getProducts(query, limit) {
         return axios
-            .get(`${baseUrl}/sites/MLA/search?q=:${query}`)
+            .get(`${baseUrl}/sites/MLA/search?q=:${query}&limit=${limit}`)
             .then((response) => {
                return response.data;
             })
