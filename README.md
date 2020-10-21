@@ -18,7 +18,7 @@
 <p>
 - 🚩 
 <a
-    href="https://www.mercadolivre.com.br/"
+    href="https://reactrouter.com/web/guides/quick-start"
     target="_blank"
   > react-router-dom; </a>
 
@@ -27,7 +27,7 @@
 <p>
 - 💇
 <a
-    href="https://www.mercadolivre.com.br/"
+    href="https://www.npmjs.com/package/node-sass"
     target="_blank"
   > node-sass; </a>
 
