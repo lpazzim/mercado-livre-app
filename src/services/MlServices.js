@@ -15,6 +15,30 @@ class MLServices {
                 console.log(error);
             });
     }
+
+    static getProductDetail(id) {
+        return axios
+            .get(`${baseUrl}items/${id}`)
+            .then((response) => {
+               return response.data;
+            })
+            .catch((error) => {
+                // handle error
+                console.log(error);
+            });
+    }
+
+    static getProductDescription(id) {
+        return axios
+            .get(`${baseUrl}items/${id}/descriptions`)
+            .then((response) => {
+               return response.data;
+            })
+            .catch((error) => {
+                // handle error
+                console.log(error);
+            });
+    }
 }
 
 export default MLServices;
