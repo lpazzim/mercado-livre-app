@@ -41,7 +41,7 @@ export default function ProductDetail(props) {
           <div>
             <img src={product ? product.pictures[0].secure_url : null} alt="product-image" />
           </div>
-          <div>
+          <div className="right-info">
             <p className="condition"> {product ? product.condition : null} {product ? ` ${product.sold_quantity} vendidos` : null} </p>
             <p className="title"> {product ? product.title : null} </p>
             <p className="price"> {product ? `$ ${product.price}` : null}</p>

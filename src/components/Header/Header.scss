@@ -5,7 +5,8 @@
   justify-content: space-around;
   .header {
     display: flex;
-    width: auto;
+    width: 80%;
+    max-width: 950px;
     img{
       max-width: 52px;
       height: auto;
