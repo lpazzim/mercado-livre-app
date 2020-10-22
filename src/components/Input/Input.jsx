@@ -17,6 +17,11 @@ export default function Input(props) {
     props.onChange(e);
   }
 
+  function handleKeyDown(e) {
+    if (e.keyCode === 13) {
+      props.onClick();
+    }
+  }
 
   return (
     <div className="input-container">
@@ -24,9 +29,10 @@ export default function Input(props) {
         placeholder={props.placeholder ? props.placeholder : ''}
         maxLength={props.maxLength ? props.maxLength : 100}
         onChange={(e) => { onChange(e.target.value) }}
+        onKeyDown={(e) => handleKeyDown(e)}
         type='text'
       />
-        <img src={props.icon ? props.icon : null} className="ico" alt="input-icon" onClick={() => onClick()} disabled={props.disabled} />
+      <img src={props.icon ? props.icon : null} className="ico" alt="input-icon" onClick={() => onClick()} disabled={props.disabled} />
     </div>
   );
 }
