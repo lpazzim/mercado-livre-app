@@ -1,0 +1,17 @@
+.breadcrumbs-container {
+  display: flex;
+  padding: 16px 0;
+  .breadcrumb-item {
+    font-size: 14px;
+    color: var(--color3);
+    .tag {
+      padding: 0 8px;
+    }
+  }
+}
+
+.breadcrumb-item:last-child {
+  .tag {
+    display: none;
+  }
+}

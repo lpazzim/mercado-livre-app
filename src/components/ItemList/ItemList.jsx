@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { formatCurrencyAR } from "../../utils/utils";
 import './ItemList.scss';
 
 
@@ -11,7 +12,7 @@ export default function ItemList(props) {
           <img src={props.item.thumbnail ? props.item.thumbnail : null} alt="product-image" />
         </Link>
         <div className="info-description">
-          <p className="price" >{props.item.price ? `$ ${props.item.price}` : null}</p>
+          <p className="price" >{props.item.price ? `$ ${formatCurrencyAR(props.item.price)}` : null}</p>
           <Link className="title" to={`/items/${props.item.id}`}>{props.item.title ? props.item.title : null} </Link>
           <p>{props.item.moreInfo ? props.item.moreInfo : null}</p>
         </div>
