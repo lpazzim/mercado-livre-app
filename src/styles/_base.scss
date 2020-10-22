@@ -28,13 +28,17 @@
     url("/assets/fonts/Montserrat/montserrat-v14-latin-700.svg#Montserrat") format("svg");
 }
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  min-height: 100%;
   overflow-x: hidden;
   font-family: var(--font-family);
-  color: #3b3b3b;
+  background-color: var(--color4);
 }
 
 .app-container {
