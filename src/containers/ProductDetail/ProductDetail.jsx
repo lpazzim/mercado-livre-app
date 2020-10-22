@@ -44,7 +44,7 @@ export default function ProductDetail(props) {
           </div>
           <div className="right-info">
             <p className="condition"> {product ? product.condition : null} {product ? ` ${product.sold_quantity} vendidos` : null} </p>
-            <p className="title"> {product ? product.title : null} </p>
+            <h1 className="title"> {product ? product.title : null} </h1>
             <p className="price"> {product ? `$ ${formatCurrencyAR(product.price)}` : null}</p>
             <button> Comprar </button>
           </div>
@@ -54,7 +54,7 @@ export default function ProductDetail(props) {
         </div>
       </div>
       <div className="product-abstract">
-        <h3 className="title"> {'Descrição do Produto'} </h3>
+        <h1 className="title"> {'Descrição do Produto'} </h1>
         <p className="description"> {desc ? desc[0].plain_text : null} </p>
       </div>
     </div>
