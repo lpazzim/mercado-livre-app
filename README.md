@@ -99,8 +99,12 @@
 
 ### How to use
 <p> - git clone https://github.com/lpazzim/mercado-livre-app.git</p>
+<p> - cd mercado-livre-app </p>
 <p> - npm install </p>
+<p> - npm run build </p>
 <p> - npm run start </p>
+
+The application will be running on: http://localhost:8080/;
 
 ### Or
 - Just acess: https://brave-goodall-f545fd.netlify.app/
