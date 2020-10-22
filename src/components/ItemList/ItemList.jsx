@@ -9,7 +9,7 @@ export default function ItemList(props) {
     <div className="item-list-container">
       <div className="item-info">
         <Link to={`/items/${props.item.id}`} className="item-img">
-          <img src={props.item.thumbnail ? props.item.thumbnail : null} alt="product-image" />
+          <img src={props.item.thumbnail ? props.item.thumbnail : null} alt="product" />
         </Link>
         <div className="info-description">
           <p className="price" >{props.item.price ? `$ ${formatCurrencyAR(props.item.price)}` : null}</p>

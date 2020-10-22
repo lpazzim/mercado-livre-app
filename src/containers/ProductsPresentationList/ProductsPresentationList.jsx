@@ -10,7 +10,7 @@ import './ProductsPresentationList.scss';
 export default function ProductsPresentationList(props) {
   const dispatch = useDispatch();
   const products = useSelector(state => state.data);
-  const listBreadcrumbs = products.filters &&  products.filters.length > 0  ? products.filters[0].values[0].path_from_root : null;
+  const listBreadcrumbs = products.filters && products.filters.length > 0 ? products.filters[0].values[0].path_from_root : null;
 
   useEffect(() => {
     var url_string = window.location.href;
@@ -22,15 +22,12 @@ export default function ProductsPresentationList(props) {
 
   function searchProducts(query, limit) {
     MlServices.getProducts(query, limit).then((res) => {
-      console.log('res', res);
       dispatch({ type: 'ADD_PRODUCTS', data: res });
     })
       .catch((error) => {
         return error;
       });
   }
-
-  console.log('products', );
 
   return (
     <>
