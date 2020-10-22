@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import MlServices from './../../services/MlServices';
 import { formatCurrencyAR } from "../../utils/utils";
-import './ProductDetail.scss'
+import './ProductDetail.scss';
 
 
 export default function ProductDetail(props) {

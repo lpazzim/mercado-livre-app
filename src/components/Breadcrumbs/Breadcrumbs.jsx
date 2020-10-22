@@ -1,7 +1,6 @@
 import React from 'react';
 import './Breadcrumbs.scss';
 
-
 export default function Input(props) {
   return (
     <div className="breadcrumbs-container">

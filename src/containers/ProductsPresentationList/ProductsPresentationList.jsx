@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { useParams } from 'react-router-dom';
 import ItemList from './../../components/ItemList/ItemList.jsx';
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs.jsx";
-import MlServices from './../../services/MlServices.js'
+import MlServices from './../../services/MlServices.js';
 import './ProductsPresentationList.scss';
 
 
