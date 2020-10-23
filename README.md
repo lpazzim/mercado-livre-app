@@ -107,4 +107,4 @@
 The application will be running on: http://localhost:8080/;
 
 ### Or
-- Just acess: https://brave-goodall-f545fd.netlify.app/
+- Just access: https://brave-goodall-f545fd.netlify.app/
