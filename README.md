@@ -54,55 +54,50 @@
 </p>
 
 ### Libs and Tools
-<p>
-- 🚩 
+-
+🚩 
 <a
     href="https://reactrouter.com/web/guides/quick-start"
     target="_blank"
   > react-router-dom; </a>
 
-</p>
-
-<p>
-- 💇
+-
+💇
 <a
     href="https://www.npmjs.com/package/node-sass"
     target="_blank"
   > node-sass; </a>
-</p>
 
-<p>
- - 🔌
+
+-
+🔌
 <a
     href="https://github.com/axios/axios"
     target="_blank"
   > axios; </a>
-</p>
 
 
-<p>
- - 📦
+-
+📦
 <a
     href="https://react-redux.js.org/"
     target="_blank"
   > react-redux; </a>
-</p>
 
-<p>
- - 💻
+-
+💻
 <a
     href="https://expressjs.com/"
     target="_blank"
   > express; </a>
-</p>
 
 
 ### How to use
-<p> - git clone https://github.com/lpazzim/mercado-livre-app.git</p>
-<p> - cd mercado-livre-app </p>
-<p> - npm install </p>
-<p> - npm run build </p>
-<p> - npm run start </p>
+- git clone https://github.com/lpazzim/mercado-livre-app.git
+- cd mercado-livre-app
+- npm install
+- npm run build
+- npm run start
 
 The application will be running on: http://localhost:8080/;
 
