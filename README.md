@@ -55,11 +55,7 @@
 
 ### Libs and Tools
 -
-🚩 
-<a
-    href="https://reactrouter.com/web/guides/quick-start"
-    target="_blank"
-  > react-router-dom; </a>
+🚩 <a href="https://reactrouter.com/web/guides/quick-start" target="_blank"> react-router-dom </a>
 
 -
 💇
