@@ -54,38 +54,16 @@
 </p>
 
 ### Libs and Tools
--
-🚩 <a href="https://reactrouter.com/web/guides/quick-start" target="_blank"> react-router-dom </a>
 
--
-💇
-<a
-    href="https://www.npmjs.com/package/node-sass"
-    target="_blank"
-  > node-sass; </a>
+-🚩 <a href="https://reactrouter.com/web/guides/quick-start" target="_blank"> react-router-dom </a>
 
+-💇 <a href="https://www.npmjs.com/package/node-sass" target="_blank"> node-sass </a>
 
--
-🔌
-<a
-    href="https://github.com/axios/axios"
-    target="_blank"
-  > axios; </a>
+-🔌 <a href="https://github.com/axios/axios" target="_blank"> axios </a>
 
+-📦 <a href="https://react-redux.js.org/" target="_blank"> react-redux </a>
 
--
-📦
-<a
-    href="https://react-redux.js.org/"
-    target="_blank"
-  > react-redux; </a>
-
--
-💻
-<a
-    href="https://expressjs.com/"
-    target="_blank"
-  > express; </a>
+-💻 <a href="https://expressjs.com/" target="_blank"> express </a>
 
 
 ### How to use
