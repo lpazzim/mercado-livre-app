@@ -21,7 +21,7 @@
     target="_blank"
   >
     <img
-      src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg"
+      src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
       alt="javascript"
       width="40"
       height="40"
@@ -29,7 +29,7 @@
   </a>
   <a href="https://reactjs.org/" target="_blank">
     <img
-      src="https://devicons.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg"
+      src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
       alt="react"
       width="40"
       height="40"
@@ -37,7 +37,7 @@
   </a>
   <a href="https://sass-lang.com/documentation/syntax" target="_blank">
     <img
-      src="https://devicons.github.io/devicon/devicon.git/icons/sass/sass-original.svg"
+      src="https://www.vectorlogo.zone/logos/sass-lang/sass-lang-icon.svg"
       alt="scss"
       width="40"
       height="40"
@@ -45,7 +45,7 @@
   </a>
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5" target="_blank">
     <img
-      src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-plain-wordmark.svg"
+      src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"
       alt="html5"
       width="40"
       height="40"
