@@ -74,6 +74,3 @@
 - npm run start
 
 The application will be running on: http://localhost:8080/;
-
-### Or
-- Just access: https://brave-goodall-f545fd.netlify.app/
