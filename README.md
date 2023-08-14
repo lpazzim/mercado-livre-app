@@ -3,7 +3,6 @@
 <div  align="left">
 <p align="left">
   <a
-    href="https://brave-goodall-f545fd.netlify.app/"
     target="_blank"
   >
     <img
